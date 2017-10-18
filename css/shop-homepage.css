@@ -1,0 +1,159 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+    widows: 1953px;
+}
+
+/*@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}*/
+/*      Header    */
+.header{
+    padding: 10px 25px 20px 20px;
+    background-color: #061414;
+}
+
+.header .header_left{
+ 
+}
+.header .header_left .header_form{
+    margin-left:400px;
+}
+.header .header_left .header_form form{
+    text-align: center;
+}
+.header .header_right{
+    line-height: 43px;
+}
+.header .header_left li a:hover{
+    color: #F15A23!important;
+}
+.header li a{
+    color: white!important;
+}
+.header .header_right ul{
+    list-style-type: none;
+}
+.header .header_right ul li{
+    float: left;
+    margin-right: 10px;
+}
+.header .header_right ul li a:hover{
+    color: #F15A23!important;
+}
+@media only screen and (max-width: 768px){
+    .header{
+        width: 100%;
+        height: auto;
+        background-color: grey;
+    }
+    .header .header_left{
+        float: none;
+    }
+    .header nav{
+
+    }
+    .header li a{
+        color: black!important;
+    }
+}
+/*      Container     */
+
+.moderns{
+	margin-bottom: 18px;
+}
+.moderns_first{
+	margin-bottom: 23px;
+}
+.container{
+    clear: both;
+}
+.container h3, form, html, ol, ul {
+    padding: 0;
+}
+.container h3 {
+    margin: 0 0 20px;
+    line-height: normal;
+    border-bottom: 1px solid #e5e5e5;
+    color: #000;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 22px;
+}
+.container h3 span {
+    border-bottom: 2px solid #f15a23;
+    display: inline-block;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-bottom: -1px;
+}
+.product-layout{
+	margin: 0 auto;
+	text-align: center;
+}
+h4{
+	font-size: 18px;
+}
+    
+.container a{
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+}
+nav->li:hover{
+    color: red!important;
+}
+
+.container .banner img:hover{
+    opacity: 0.85;
+}
+.custom-feature-box .feature-box{
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 8px 15px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.custom-feature-box .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*      FOOTER     */
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: #999;
+    padding:15px 20px;
+}
+.footer h5{
+    color: white;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer a{
+    color: #999;
+}
+.footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer .column{
+    margin-bottom: 15px;
+}
