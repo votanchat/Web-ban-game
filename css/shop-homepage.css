@@ -44,11 +44,31 @@ ul li{
     padding: 10px 25px 20px 20px;
     background-color: #061414;
 }
-.header .header_top{
-
+.header .header_top .form_but{
+    position: relative;
+}
+.header .header_top .form-control{
+    z-index: 2;
+    float: left;    
+    margin-bottom: 0;
+}
+.header .header_top .button-search{
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    z-index: 2;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    float: right;
+    background: 0 0;
+    border: none;
+    color: #bbb;
+    padding: 0;
+    border-radius: 0 4px 4px 0;
 }
 .header .header_top ul li .bck_hover a:hover{
-    background-color: gray;
+    background-color: orange;
     margin-right: 0px;
 }
 .header .header_top li a:hover{
@@ -58,20 +78,17 @@ ul li{
     color: white!important;
 }
 .header .header_bot{
-   width: 235px;
+   width: 280px;
    height: 30px;
    margin: 0 auto;
 }
 .header .header_bot ul li a:hover{
     color: #F15A23!important;
 }
-@media only screen and (max-width: 768px){
-    .header .header_top{
-    }
-    .header nav{
-
-    }
-    .header .header_bot{}
+@media only screen and (min-width: 993px){
+    .header .header_top .form_but{
+        position: relative;
+        margin-left: 70px;
     }
 }
 /*      Container     */
@@ -81,6 +98,7 @@ ul li{
         height: 330px;
     }
 }
+
 @media only screen and (max-width: 768px){
     .container .carousel-inner img{
         width: 100%;
@@ -208,4 +226,35 @@ nav->li:hover{
 }
 .footer .column{
     margin-bottom: 15px;
+}
+
+
+
+
+/*                LOGIN_CSS              */
+
+.content{
+    padding: 
+}
+
+.btn-primary {
+    background-color: #f15a23;
+    color: #fff;
+}
+
+.btn {
+    padding: 6.2px 12px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: all .3s ease-in-out;
+}
+
+
+
+/*                BORDER_BOT             */
+.content .cart .price_box{
+    border-top: 1px dotted grey;
+    padding: 15px 0;
+    overflow: auto
 }
