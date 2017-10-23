@@ -135,3 +135,42 @@ footer .column{
     padding-bottom: 3px;
     margin-bottom: -1px;
 }
+.reg h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: normal;
+    text-rendering: optimizelegibility;
+    text-align: left;
+    font-family: inherit;
+}
+.reg p {
+    text-align: left;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.acc legend {
+    font-size: 18px;
+    padding: 7px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+legend {
+    font-size: 18px;
+    padding: 7px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.reg p a {
+    color: #f15a23;
+}
+.reg p a:hover {
+    color: blue;
+    text-decoration: none;
+}
+.form .control-label:before {
+    content: '* ';
+    color: red;
+    font-weight: 700;
+
+}
