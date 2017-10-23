@@ -168,7 +168,7 @@ legend {
     color: blue;
     text-decoration: none;
 }
-.form .control-label:before {
+.form1 .control-label:before {
     content: '* ';
     color: red;
     font-weight: 700;
