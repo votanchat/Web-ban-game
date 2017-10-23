@@ -52,16 +52,23 @@ a{
     font-size: 11px;
     display: inline-block;
 }
-.sanpham .price{
+.sanpham{
+
+	}
+.price{
 	border-top: solid 1px;
 	border-color: red;
+	padding-bottom: 20px;
 }
-.sanpham .price .price-new{
+.price .price-new{
 	color: #f15a23;
 }
-.sanpham .price .price-old{
+.price .price-old{
 	color: #999;
 	text-decoration: line-through;
+}
+.price span{
+	font-size: 30px;
 }
 .sanpham .img img{
 	height: 100px;
