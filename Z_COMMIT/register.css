@@ -1,0 +1,85 @@
+
+.fancybox {
+    color: #f15a23;
+    text-decoration: none;
+}
+
+.fancybox:hover {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: #f15a23;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #204d74;
+}
+
+.col-sm-9 p a {
+    color: #f15a23;
+}
+
+.col-sm-9 p a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.legend {
+    font-size: 18px;
+    padding: 7px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.col-sm-9 h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: normal;
+    text-rendering: optimizelegibility;
+    margin-top: 45px;
+    text-align: left;
+    font-family: inherit;
+}
+
+.col-sm-9 p {
+    text-align: left;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+#account legend {
+    font-size: 18px;
+    padding: 7px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.form-group .control-label:before {
+    content: '* ';
+    color: red;
+    font-weight: 700;
+
+}
+
+.form-control {
+    width: 100%;
+    display: block;
+}
+
+.col-sm-10 {
+    float: right;
+}
+.form-group label
+{
+
+    font-size: 14px;
+}
+#password legend
+{
+    font-size: 18px;
+    padding: 7px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
